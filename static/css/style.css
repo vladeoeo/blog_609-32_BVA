@@ -1,0 +1,134 @@
+.container-fluid{
+    width: 90%;
+}
+
+header{
+    padding-top: 20px;
+    margin-bottom: 80px;
+}
+
+.header__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__wrapper a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 60px;
+    background-color: #08571e;
+    border-radius: 20px;
+    font-family: sans-serif;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.article_list-h1{
+    font-family: sans-serif;
+    color: #000;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.article__item{
+    height: 300px;
+    background-color: #08571e;
+    border-radius: 20px;
+    padding: 20px;
+    width: 28.5vw;
+}
+
+.article_list-row{
+    gap: 20px;
+    align-items: center;
+}
+
+.article_list-row h2 a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.article_list-row h2{
+    margin-bottom: 30px;
+}
+
+.article_list-row p{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.article_list-row time{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.article_detail{
+    text-align: center;
+}
+
+.article_detail img{
+    width: 50%;
+    height: 50%;
+    margin-bottom: 15px;
+}
+
+.article_detail h1{
+    font-family: sans-serif;
+    color: #000;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.article_detail p{
+    font-family: sans-serif;
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.form button{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 60px;
+    background-color: #08571e;
+    border-radius: 20px;
+    font-family: sans-serif;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.form{
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
