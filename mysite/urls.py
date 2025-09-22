@@ -20,10 +20,10 @@ from django.contrib import admin
 from django.urls import path, include
 
 from mysite import views
-
+from articles import views as article_view
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',views.homepage, name='homepage'),
+    path('',article_view.article_list, name='homepage'),
     path('about/',views.about, name='about'),
     path('articles/', include('articles.urls')),
     path('accounts/',include('accounts.urls'))

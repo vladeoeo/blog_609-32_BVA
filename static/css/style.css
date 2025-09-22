@@ -1,3 +1,10 @@
+/*начало сброса стилей*/
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
 .container-fluid{
     width: 90%;
 }
@@ -48,6 +55,7 @@ header{
 .article_list-row{
     gap: 20px;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 .article_list-row h2 a{
@@ -104,6 +112,7 @@ header{
     font-size: 24px;
     font-weight: 600;
     text-align: center;
+    word-wrap: break-word;
 }
 
 .form button{
@@ -126,8 +135,25 @@ header{
     margin-bottom: 0px;
 }
 
-
-
+.article_list_create-btn{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 60px;
+    background-color: #08571e;
+    border-radius: 20px;
+    font-family: sans-serif;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.article_list_create-btn:hover{
+    color: #FFF;
+}
 
 
 
